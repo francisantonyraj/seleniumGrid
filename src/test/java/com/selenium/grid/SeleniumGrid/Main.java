@@ -25,8 +25,8 @@ public class Main {
 	public void launch(String browserName) throws MalformedURLException {
 
 		if (browserName.equals("chrome")) {
-			desiredCapabilities.setPlatform(Platform.ANY);
-			desiredCapabilities.setBrowserName(browserName);
+			desiredCapabilities.setPlatform(Platform.ANY);   //set the OS platform
+			desiredCapabilities.setBrowserName(browserName); //set the type of browser
 
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.merge(desiredCapabilities);
@@ -38,7 +38,7 @@ public class Main {
 			edgeOptions.merge(desiredCapabilities);
 		}
 
-		driver = new RemoteWebDriver(new URL("http://10.0.0.164:4444"), desiredCapabilities);
+		driver = new RemoteWebDriver(new URL("http://10.0.0.164:4444"), desiredCapabilities); //set the node that the test will run.
 		driver.get("https://www.google.com");
 
 	}
