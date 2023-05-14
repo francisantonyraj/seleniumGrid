@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-09T21:26:03 GMT-04:00" name="Suite" finished-at="2023-05-09T21:26:12 GMT-04:00" duration-ms="8546">
+    <groups>
+    </groups>
+    <test started-at="2023-05-09T21:26:03 GMT-04:00" name="Test Chrome" finished-at="2023-05-09T21:26:09 GMT-04:00" duration-ms="5645">
+      <class name="com.selenium.grid.SeleniumGrid.Main">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.selenium.grid.SeleniumGrid.Main@55634720]" started-at="2023-05-09T21:26:03 GMT-04:00" name="launch" finished-at="2023-05-09T21:26:09 GMT-04:00" duration-ms="5566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testCase01()[pri:0, instance:com.selenium.grid.SeleniumGrid.Main@55634720]" started-at="2023-05-09T21:26:09 GMT-04:00" name="testCase01" finished-at="2023-05-09T21:26:09 GMT-04:00" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+      </class> <!-- com.selenium.grid.SeleniumGrid.Main -->
+    </test> <!-- Test Chrome -->
+    <test started-at="2023-05-09T21:26:09 GMT-04:00" name="Test Edge" finished-at="2023-05-09T21:26:12 GMT-04:00" duration-ms="2857">
+      <class name="com.selenium.grid.SeleniumGrid.Main">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.selenium.grid.SeleniumGrid.Main@20140db9]" started-at="2023-05-09T21:26:09 GMT-04:00" name="launch" finished-at="2023-05-09T21:26:12 GMT-04:00" duration-ms="2827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testCase01()[pri:0, instance:com.selenium.grid.SeleniumGrid.Main@20140db9]" started-at="2023-05-09T21:26:12 GMT-04:00" name="testCase01" finished-at="2023-05-09T21:26:12 GMT-04:00" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+      </class> <!-- com.selenium.grid.SeleniumGrid.Main -->
+    </test> <!-- Test Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
